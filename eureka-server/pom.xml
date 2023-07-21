@@ -9,7 +9,8 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>bus</artifactId>
+    <groupId>com.example.eurekaserver</groupId>
+    <artifactId>eureka-server</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -24,7 +25,8 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
     </dependencies>
+
 </project>

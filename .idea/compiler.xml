@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="user" />
         <module name="bus" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
