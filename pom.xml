@@ -13,6 +13,7 @@
 		<module>user</module>
 		<module>bus</module>
         <module>eureka-server</module>
+        <module>booking</module>
     </modules>
 
 	<properties>

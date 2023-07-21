@@ -1,5 +1,8 @@
-package com.example.bus.entity;
+package com.example.booking.entity;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Bus {
     private String busName;
     private int busNumber;

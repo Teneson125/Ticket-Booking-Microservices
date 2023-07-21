@@ -15,6 +15,11 @@ public class CustomerController {
     @Autowired
     private CustomerService service;
 
+    @GetMapping("")
+    private String status(){
+        return "Customer is working";
+    }
+
     @GetMapping("list")
     private List<Customer> listCustomer(){
         List<Customer> customerList = service.customerList();

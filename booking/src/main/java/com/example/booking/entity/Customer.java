@@ -1,5 +1,8 @@
-package com.example.customer.entity;
+package com.example.booking.entity;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Customer {
     private String name;
     private String email;

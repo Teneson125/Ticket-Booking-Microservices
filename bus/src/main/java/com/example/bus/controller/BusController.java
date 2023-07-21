@@ -15,6 +15,11 @@ public class BusController {
     @Autowired
     private BusService service;
 
+    @GetMapping("")
+    private String status(){
+        return "Bus is working";
+    }
+
     @GetMapping("list")
     private List<Bus> list(){
         return service.busList();
